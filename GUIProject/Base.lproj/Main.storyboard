@@ -14,10 +14,10 @@
             </objects>
             <point key="canvasLocation" x="-129" y="141"/>
         </scene>
-        <!--View Controller-->
+        <!--Pension View Controller-->
         <scene sceneID="QcA-GK-iyb">
             <objects>
-                <viewController storyboardIdentifier="pensionViewController" id="h0J-1C-B5G" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="pensionViewController" id="h0J-1C-B5G" customClass="PensionViewController" customModule="GUIProject" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="t9l-wl-6eT"/>
                         <viewControllerLayoutGuide type="bottom" id="jZM-ZO-EpZ"/>
@@ -41,10 +41,10 @@
             </objects>
             <point key="canvasLocation" x="572" y="303"/>
         </scene>
-        <!--View Controller-->
+        <!--Pension View Controller-->
         <scene sceneID="dQa-P3-QxY">
             <objects>
-                <viewController storyboardIdentifier="personalViewController" id="dkI-J9-xEM" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="personalViewController" id="dkI-J9-xEM" customClass="PensionViewController" customModule="GUIProject" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="E2m-XE-ghK"/>
                         <viewControllerLayoutGuide type="bottom" id="NVW-3R-cvB"/>
@@ -68,10 +68,10 @@
             </objects>
             <point key="canvasLocation" x="534" y="-412"/>
         </scene>
-        <!--View Controller-->
+        <!--Financial View Controller-->
         <scene sceneID="iiC-QO-g8E">
             <objects>
-                <viewController storyboardIdentifier="financialViewController" id="3w7-ym-W6a" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="financialViewController" id="3w7-ym-W6a" customClass="FinancialViewController" customModule="GUIProject" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="z0m-dE-jVV"/>
                         <viewControllerLayoutGuide type="bottom" id="G5X-ll-J1z"/>
