@@ -12,18 +12,32 @@ class InputsViewController: UIPageViewController, UIPageViewControllerDataSource
     
     var itemIndex: Int = 0
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         dataSource = self
         self.stylePageControl()
         
+        UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle.LightContent, animated: true)
+        //Change status bar color
+        let statusBar: UIView = UIApplication.sharedApplication().valueForKey("statusBar") as! UIView
+        if statusBar.respondsToSelector("setBackgroundColor:") {
+            statusBar.backgroundColor = UIColor.whiteColor()
+        }
+
+    
         if let firstViewController = orderedViewControllers.first {
             setViewControllers([firstViewController],
                                direction: .Forward,
                                animated: true,
                                completion: nil)
         }
+    }
+    
+
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        self.view.endEditing(true)
     }
 
     // MARK: UIPageViewControllerDataSource
@@ -95,8 +109,8 @@ class InputsViewController: UIPageViewController, UIPageViewControllerDataSource
     private func stylePageControl() {
         let pageControl = UIPageControl.appearanceWhenContainedInInstancesOfClasses([self.dynamicType])
         
-        pageControl.currentPageIndicatorTintColor = UIColor.blueColor()
-        pageControl.pageIndicatorTintColor = UIColor.greenColor()
-        pageControl.backgroundColor = UIColor.orangeColor()
+        pageControl.currentPageIndicatorTintColor = UIColor.whiteColor()
+        pageControl.pageIndicatorTintColor = UIColor.darkGrayColor()
+        pageControl.backgroundColor = UIColor.blackColor()//UIColor(red: 27, green: 25, blue: 25, alpha: 1.0)
     }
 }

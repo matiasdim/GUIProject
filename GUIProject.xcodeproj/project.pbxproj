@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC0953751DA0A0E700D64B8D /* WhatIfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0953741DA0A0E700D64B8D /* WhatIfViewController.swift */; };
+		EC435DFF1D9EE010001F4125 /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC435DFE1D9EE010001F4125 /* PersonalViewController.swift */; };
+		EC435E011D9EE01F001F4125 /* FinancialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC435E001D9EE01F001F4125 /* FinancialViewController.swift */; };
+		EC435E031D9EE02B001F4125 /* PensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC435E021D9EE02B001F4125 /* PensionViewController.swift */; };
 		EC7C40C61D9EBD1800E7DD76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7C40C51D9EBD1800E7DD76 /* AppDelegate.swift */; };
 		EC7C40C81D9EBD1800E7DD76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7C40C71D9EBD1800E7DD76 /* ViewController.swift */; };
 		EC7C40CB1D9EBD1800E7DD76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7C40C91D9EBD1800E7DD76 /* Main.storyboard */; };
@@ -16,6 +20,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC0953741DA0A0E700D64B8D /* WhatIfViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatIfViewController.swift; sourceTree = "<group>"; };
+		EC435DFE1D9EE010001F4125 /* PersonalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
+		EC435E001D9EE01F001F4125 /* FinancialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialViewController.swift; sourceTree = "<group>"; };
+		EC435E021D9EE02B001F4125 /* PensionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PensionViewController.swift; sourceTree = "<group>"; };
+		EC435E091D9EE0C1001F4125 /* KHADateFormCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KHADateFormCell.swift; path = GUIProject/KHAForm/KHADateFormCell.swift; sourceTree = "<group>"; };
+		EC435E0A1D9EE0C1001F4125 /* KHADatePickerFormCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KHADatePickerFormCell.swift; path = GUIProject/KHAForm/KHADatePickerFormCell.swift; sourceTree = "<group>"; };
+		EC435E0B1D9EE0C1001F4125 /* KHAFormCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KHAFormCell.swift; path = GUIProject/KHAForm/KHAFormCell.swift; sourceTree = "<group>"; };
+		EC435E0C1D9EE0C1001F4125 /* KHAFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KHAFormViewController.swift; path = GUIProject/KHAForm/KHAFormViewController.swift; sourceTree = "<group>"; };
+		EC435E0D1D9EE0C1001F4125 /* KHASegmentedControlFormCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KHASegmentedControlFormCell.swift; path = GUIProject/KHAForm/KHASegmentedControlFormCell.swift; sourceTree = "<group>"; };
+		EC435E0E1D9EE0C1001F4125 /* KHASelectionFormCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KHASelectionFormCell.swift; path = GUIProject/KHAForm/KHASelectionFormCell.swift; sourceTree = "<group>"; };
+		EC435E0F1D9EE0C1001F4125 /* KHASelectionFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KHASelectionFormViewController.swift; path = GUIProject/KHAForm/KHASelectionFormViewController.swift; sourceTree = "<group>"; };
+		EC435E101D9EE0C1001F4125 /* KHASwitchFormCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KHASwitchFormCell.swift; path = GUIProject/KHAForm/KHASwitchFormCell.swift; sourceTree = "<group>"; };
+		EC435E111D9EE0C1001F4125 /* KHATextFieldFormCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KHATextFieldFormCell.swift; path = GUIProject/KHAForm/KHATextFieldFormCell.swift; sourceTree = "<group>"; };
+		EC435E121D9EE0C1001F4125 /* KHATextViewFormCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KHATextViewFormCell.swift; path = GUIProject/KHAForm/KHATextViewFormCell.swift; sourceTree = "<group>"; };
 		EC7C40C21D9EBD1800E7DD76 /* GUIProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GUIProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7C40C51D9EBD1800E7DD76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC7C40C71D9EBD1800E7DD76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,11 +55,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC435E081D9EE0C1001F4125 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC435E091D9EE0C1001F4125 /* KHADateFormCell.swift */,
+				EC435E0A1D9EE0C1001F4125 /* KHADatePickerFormCell.swift */,
+				EC435E0B1D9EE0C1001F4125 /* KHAFormCell.swift */,
+				EC435E0C1D9EE0C1001F4125 /* KHAFormViewController.swift */,
+				EC435E0D1D9EE0C1001F4125 /* KHASegmentedControlFormCell.swift */,
+				EC435E0E1D9EE0C1001F4125 /* KHASelectionFormCell.swift */,
+				EC435E0F1D9EE0C1001F4125 /* KHASelectionFormViewController.swift */,
+				EC435E101D9EE0C1001F4125 /* KHASwitchFormCell.swift */,
+				EC435E111D9EE0C1001F4125 /* KHATextFieldFormCell.swift */,
+				EC435E121D9EE0C1001F4125 /* KHATextViewFormCell.swift */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EC7C40B91D9EBD1800E7DD76 = {
 			isa = PBXGroup;
 			children = (
 				EC7C40C41D9EBD1800E7DD76 /* GUIProject */,
 				EC7C40C31D9EBD1800E7DD76 /* Products */,
+				EC435E081D9EE0C1001F4125 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +99,10 @@
 				EC7C40CC1D9EBD1800E7DD76 /* Assets.xcassets */,
 				EC7C40CE1D9EBD1800E7DD76 /* LaunchScreen.storyboard */,
 				EC7C40D11D9EBD1800E7DD76 /* Info.plist */,
+				EC435DFE1D9EE010001F4125 /* PersonalViewController.swift */,
+				EC435E001D9EE01F001F4125 /* FinancialViewController.swift */,
+				EC435E021D9EE02B001F4125 /* PensionViewController.swift */,
+				EC0953741DA0A0E700D64B8D /* WhatIfViewController.swift */,
 			);
 			path = GUIProject;
 			sourceTree = "<group>";
@@ -141,7 +181,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC7C40DA1D9EC10B00E7DD76 /* InputsViewController.swift in Sources */,
+				EC435E011D9EE01F001F4125 /* FinancialViewController.swift in Sources */,
 				EC7C40C81D9EBD1800E7DD76 /* ViewController.swift in Sources */,
+				EC435E031D9EE02B001F4125 /* PensionViewController.swift in Sources */,
+				EC0953751DA0A0E700D64B8D /* WhatIfViewController.swift in Sources */,
+				EC435DFF1D9EE010001F4125 /* PersonalViewController.swift in Sources */,
 				EC7C40C61D9EBD1800E7DD76 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +348,7 @@
 				EC7C40D61D9EBD1800E7DD76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
