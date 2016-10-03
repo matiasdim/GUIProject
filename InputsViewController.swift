@@ -19,6 +19,9 @@ class InputsViewController: UIPageViewController, UIPageViewControllerDataSource
         dataSource = self
         self.stylePageControl()
         
+        
+        
+        
         UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle.LightContent, animated: true)
         //Change status bar color
         let statusBar: UIView = UIApplication.sharedApplication().valueForKey("statusBar") as! UIView
@@ -34,6 +37,7 @@ class InputsViewController: UIPageViewController, UIPageViewControllerDataSource
                                completion: nil)
         }
     }
+
     
 
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {

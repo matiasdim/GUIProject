@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		EC0953751DA0A0E700D64B8D /* WhatIfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0953741DA0A0E700D64B8D /* WhatIfViewController.swift */; };
+		EC0953771DA17A5000D64B8D /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0953761DA17A5000D64B8D /* SummaryViewController.swift */; };
+		EC0953791DA17A6000D64B8D /* PrintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0953781DA17A6000D64B8D /* PrintViewController.swift */; };
 		EC435DFF1D9EE010001F4125 /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC435DFE1D9EE010001F4125 /* PersonalViewController.swift */; };
 		EC435E011D9EE01F001F4125 /* FinancialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC435E001D9EE01F001F4125 /* FinancialViewController.swift */; };
 		EC435E031D9EE02B001F4125 /* PensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC435E021D9EE02B001F4125 /* PensionViewController.swift */; };
@@ -21,6 +23,8 @@
 
 /* Begin PBXFileReference section */
 		EC0953741DA0A0E700D64B8D /* WhatIfViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatIfViewController.swift; sourceTree = "<group>"; };
+		EC0953761DA17A5000D64B8D /* SummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
+		EC0953781DA17A6000D64B8D /* PrintViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintViewController.swift; sourceTree = "<group>"; };
 		EC435DFE1D9EE010001F4125 /* PersonalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
 		EC435E001D9EE01F001F4125 /* FinancialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialViewController.swift; sourceTree = "<group>"; };
 		EC435E021D9EE02B001F4125 /* PensionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PensionViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				EC435E001D9EE01F001F4125 /* FinancialViewController.swift */,
 				EC435E021D9EE02B001F4125 /* PensionViewController.swift */,
 				EC0953741DA0A0E700D64B8D /* WhatIfViewController.swift */,
+				EC0953761DA17A5000D64B8D /* SummaryViewController.swift */,
+				EC0953781DA17A6000D64B8D /* PrintViewController.swift */,
 			);
 			path = GUIProject;
 			sourceTree = "<group>";
@@ -183,9 +189,11 @@
 				EC7C40DA1D9EC10B00E7DD76 /* InputsViewController.swift in Sources */,
 				EC435E011D9EE01F001F4125 /* FinancialViewController.swift in Sources */,
 				EC7C40C81D9EBD1800E7DD76 /* ViewController.swift in Sources */,
+				EC0953771DA17A5000D64B8D /* SummaryViewController.swift in Sources */,
 				EC435E031D9EE02B001F4125 /* PensionViewController.swift in Sources */,
 				EC0953751DA0A0E700D64B8D /* WhatIfViewController.swift in Sources */,
 				EC435DFF1D9EE010001F4125 /* PersonalViewController.swift in Sources */,
+				EC0953791DA17A6000D64B8D /* PrintViewController.swift in Sources */,
 				EC7C40C61D9EBD1800E7DD76 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

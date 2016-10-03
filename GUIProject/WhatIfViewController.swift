@@ -29,6 +29,16 @@ class WhatIfViewController: UIViewController {
     @IBOutlet weak var simpleLabel6: UILabel!
     
     @IBOutlet weak var generalLabel: UILabel!
+    @IBAction func cancel(sender: AnyObject) {
+        self.dismissViewControllerAnimated(true) { 
+            
+        }
+    }
+    @IBAction func ok(sender: AnyObject) {
+        self.dismissViewControllerAnimated(true) {
+            
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
